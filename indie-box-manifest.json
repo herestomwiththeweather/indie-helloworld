@@ -1,0 +1,25 @@
+{
+    "type" : "app",
+
+    "roles" : {
+        "apache2" : {
+            "defaultcontext" : "/hello",
+            "depends" : [
+                "php",
+                "php-apache"
+            ],
+            "appconfigitems" : [
+                {
+                    "name"         : "",
+                    "type"         : "directory"
+                },
+                {
+                    "type"         : "file",
+                    "name"         : "index.php",
+                    "source"       : "index.php",
+                }
+            ]
+        }
+    }
+}
+

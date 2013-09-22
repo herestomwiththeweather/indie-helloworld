@@ -10,10 +10,6 @@
             ],
             "appconfigitems" : [
                 {
-                    "name"         : "",
-                    "type"         : "directory"
-                },
-                {
                     "type"         : "file",
                     "name"         : "index.php",
                     "source"       : "index.php",

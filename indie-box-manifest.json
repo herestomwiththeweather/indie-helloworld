@@ -25,6 +25,9 @@
                 "php",
                 "php-apache"
             ],
+            "apache2modules" : [
+                "php5"
+            ],
             "appconfigitems" : [
                 {
                     "type"         : "file",
